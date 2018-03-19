@@ -25,7 +25,32 @@ NETWORK ANOMALUES & DATA SCIENCE
     * Train the model with normal behavior - Normality Model. Then for each testing data, you check the degree of deviation with repect to the profile of the system
     * Example - Gaussian Model Based Method: https://www.kaggle.com/matheusfacure/semi-supervised-anomaly-detection-survey
   * Architecture
-  
+    * Traffic Capture
+      * The raw traffic data is captured at both packet and flow levels. Flow level data is composed of information summarized from one or more packets.
+    * Anomaly Detection Engine (core)
+      * Preprocessing the data first
+      * Matching Mechanism: Fast, Selection of appropriate proximity measure and thresholds is crucial
+      * Reference Data: stores information about signatures or profiles of known intrusions or normal behavior. Must be stored in an efficient manner. 
+      * Configuration Data: Intermediate results such as partially created intrusion signatures are stored as configuration data
+      * Alarm: the vause of the alarm, the source IP/port and target IP/port associated with the attack, any background relevant to it
+      * Post-Processing: process generated alarms, to reduce false positive
+      * Security Manager: Stored intrusion signatures are updated by the security manager when a new intrusion become known. The analysis of novel intrusions is highly complex, the security manager has to analyze the alarm data, recognize novel intrusions and update the signature or profile base.
+* Unsupervised Anomaly Detection
+  * Architecture
+    * Unsupervised Engine
+      * 2 modules - Detection & Label
+      * Detection Module - groups similar instances or identifies exceptional instances
+      * Label Module - label the instance as normal or anomalous
+    * Labeling Strategy
+      * Clustering method simply groups the data without any interpretation. So we need labeling strategies to help interpretate the groups
+      * Here are the common assumptions made:
+        * The number of normal instances is vastly larger than the number of anomalous instances
+          * Exception 1: DoS or DDoS (distributed denial of service) attacks usually generate large number of  similar instances which can be larger than normal instances group
+          * Exception 2: R2L (remote to local), U2R (user to root) has similar clusters as normal clusters
+        * Anomalies are qualitative difference from normal insatnces
+        * Similarity among anomalous instances is higher than similarity among normal instances
+        * So we cannot only check cluster size, need to check other cluster characteristics
+      
 
 
 **************************************************************************************************
