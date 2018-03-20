@@ -50,7 +50,12 @@ NETWORK ANOMALUES & DATA SCIENCE
         * Anomalies are qualitative difference from normal insatnces
         * Similarity among anomalous instances is higher than similarity among normal instances
         * So we cannot only check cluster size, need to check other cluster characteristics
-      
+* Hybrid Detection
+  * I uses unsupervised followed by supervised approach, so that unsupervised can only be used for detecting new anomalies
+  * Architecture
+    * ![hybrid architecture](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/hybrid%20architecture%20of%20ANIDS.png)
+    * Supervised Learning is used to detect known attacks, then it will use unsupervised to help detect new attacks. If a new attack has been identified and confirmed, its reference (rule or signature) will be updated and inserted into the rulebase for future use
+    * For different dataset, different classifiers will have different performance. It is important to choose the right supervised or unsupervised classifier for the dataset is critical
 
 
 **************************************************************************************************
