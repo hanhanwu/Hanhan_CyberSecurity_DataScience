@@ -56,6 +56,10 @@ NETWORK ANOMALUES & DATA SCIENCE
     * ![hybrid architecture](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/hybrid%20architecture%20of%20ANIDS.png)
     * Supervised Learning is used to detect known attacks, then it will use unsupervised to help detect new attacks. If a new attack has been identified and confirmed, its reference (rule or signature) will be updated and inserted into the rulebase for future use
     * For different dataset, different classifiers will have different performance. It is important to choose the right supervised or unsupervised classifier for the dataset is critical
+* Similarity/Proximity Measures
+  * [Distance/Similarity Measures between Probability Density Functions][2]
+    * It summarized many distance measures
+    * PDF (probability dentisy functions) here are related to histograms. Each bin has a count xi, pdf for a bin = xi/n, n is the total count
 
 
 **************************************************************************************************
@@ -69,3 +73,4 @@ BIOMETRICS
 
 
 [1]:https://github.com/hanhanwu/readings/blob/master/Mouse%20behavioral%20patterns%20and%20keystroke%20dynamics%20in%20End-User%20Development.pdf
+[2]:https://github.com/hanhanwu/readings/blob/master/distance_similarity_measures.pdf
