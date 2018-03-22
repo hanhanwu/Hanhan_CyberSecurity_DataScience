@@ -60,6 +60,9 @@ NETWORK ANOMALUES & DATA SCIENCE
   * [Distance/Similarity Measures between Probability Density Functions][2]
     * It summarized many distance measures
     * PDF (probability dentisy functions) here are related to histograms. Each bin has a count xi, pdf for a bin = xi/n, n is the total count
+  * [Outlier Detection Methods in Anomalies Detection][3]
+    * Check the methods in 2 tables
+    * Some methods are real time
 
 
 **************************************************************************************************
@@ -74,3 +77,4 @@ BIOMETRICS
 
 [1]:https://github.com/hanhanwu/readings/blob/master/Mouse%20behavioral%20patterns%20and%20keystroke%20dynamics%20in%20End-User%20Development.pdf
 [2]:https://github.com/hanhanwu/readings/blob/master/distance_similarity_measures.pdf
+[3]:https://github.com/hanhanwu/readings/blob/master/A_Survey_of_Outlier_Detection_Methods_in_Network_A.pdf
