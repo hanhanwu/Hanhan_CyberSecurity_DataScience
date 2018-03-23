@@ -68,6 +68,8 @@ NETWORK ANOMALUES & DATA SCIENCE
         * fuzzy set and membership function
       * [Scikit Fuzzy][6]
       * [Scikit Fuzzy Examples][7]
+      * [Rough Set Theory used in Anomalies Detection][8]
+        * RST is used for dimensional reduction/feature selection here
 
 
 **************************************************************************************************
@@ -87,3 +89,4 @@ BIOMETRICS
 [5]:https://www.youtube.com/watch?v=r804UF8Ia4c
 [6]:https://www.youtube.com/watch?v=qUQf1JxnTnY
 [7]:http://pythonhosted.org/scikit-fuzzy/auto_examples/index.html
+[8]:https://github.com/hanhanwu/readings/blob/master/roughset_anomaly_detection.pdf
