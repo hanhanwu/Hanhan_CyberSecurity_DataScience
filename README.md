@@ -63,6 +63,11 @@ NETWORK ANOMALUES & DATA SCIENCE
   * [Outlier Detection Methods in Anomalies Detection][3]
     * Check the methods in 2 tables
     * Some methods are real time
+    * [fuzzy set vs rough set][4] - why these researchers cannot user 1 or 2 sentences to summarize the differences...
+      * [An easy-to-understand video about fuzzy logic][5]
+        * fuzzy set and membership function
+      * [Scikit Fuzzy][6]
+      * [Scikit Fuzzy Examples][7]
 
 
 **************************************************************************************************
@@ -78,3 +83,7 @@ BIOMETRICS
 [1]:https://github.com/hanhanwu/readings/blob/master/Mouse%20behavioral%20patterns%20and%20keystroke%20dynamics%20in%20End-User%20Development.pdf
 [2]:https://github.com/hanhanwu/readings/blob/master/distance_similarity_measures.pdf
 [3]:https://github.com/hanhanwu/readings/blob/master/A_Survey_of_Outlier_Detection_Methods_in_Network_A.pdf
+[4]:https://github.com/hanhanwu/readings/blob/master/fuzzy_vs_rough.pdf
+[5]:https://www.youtube.com/watch?v=r804UF8Ia4c
+[6]:https://www.youtube.com/watch?v=qUQf1JxnTnY
+[7]:http://pythonhosted.org/scikit-fuzzy/auto_examples/index.html
