@@ -70,6 +70,8 @@ NETWORK ANOMALUES & DATA SCIENCE
       * [Scikit Fuzzy Examples][7]
       * [Rough Set Theory used in Anomalies Detection][8]
         * RST is used for dimensional reduction/feature selection here
+    * [Kernel based IDS][9]
+      * It says it's real time, but more than 1 sec is really too long to be real time...
 
 
 **************************************************************************************************
@@ -90,3 +92,4 @@ BIOMETRICS
 [6]:https://www.youtube.com/watch?v=qUQf1JxnTnY
 [7]:http://pythonhosted.org/scikit-fuzzy/auto_examples/index.html
 [8]:https://github.com/hanhanwu/readings/blob/master/roughset_anomaly_detection.pdf
+[9]:https://github.com/hanhanwu/readings/blob/master/kernel_based_IDS.pdf
