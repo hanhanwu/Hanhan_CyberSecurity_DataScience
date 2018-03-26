@@ -72,6 +72,9 @@ NETWORK ANOMALUES & DATA SCIENCE
         * RST is used for dimensional reduction/feature selection here
     * [Kernel based IDS][9]
       * It says it's real time, but more than 1 sec is really too long to be real time...
+    * [Anomaly Detection with Supervised & Unsupervised Methods][11]
+      * The existing ANIDS systems summary
+      * Attack Detection with KDD99 data using Supervised, Unsupervised data. They found that supervised has lower FPR while unsupervised methid is better at detecting unknown methods
 
 
 **************************************************************************************************
@@ -97,3 +100,4 @@ BIOMETRICS
 [8]:https://github.com/hanhanwu/readings/blob/master/roughset_anomaly_detection.pdf
 [9]:https://github.com/hanhanwu/readings/blob/master/kernel_based_IDS.pdf
 [10]:https://github.com/hanhanwu/readings/blob/master/Biometric%20Cryptosystem%20based%20on%20Keystroke%20Dynamics%20and%20K%20medoids.pdf
+[11]:https://github.com/hanhanwu/readings/blob/master/Anomaly%20detection%20analysis%20of%20intrusion%20data%20using%20supervised%20and%20unsupervised%20approach.pdf
