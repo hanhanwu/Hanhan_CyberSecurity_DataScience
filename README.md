@@ -78,7 +78,7 @@ NETWORK ANOMALUES & DATA SCIENCE
       * The existing ANIDS systems summary
       * Attack Detection with KDD99 data using Supervised, Unsupervised data. They found that supervised has lower FPR while unsupervised methid is better at detecting unknown methods
 * Anomaly Scores
-  * Distance Based
+  * Same as [Outlier Detection Methods in Anomalies Detection][3]
 
 
 **************************************************************************************************
