@@ -56,6 +56,8 @@ NETWORK ANOMALUES & DATA SCIENCE
     * ![hybrid architecture](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/hybrid%20architecture%20of%20ANIDS.png)
     * Supervised Learning is used to detect known attacks, then it will use unsupervised to help detect new attacks. If a new attack has been identified and confirmed, its reference (rule or signature) will be updated and inserted into the rulebase for future use
     * For different dataset, different classifiers will have different performance. It is important to choose the right supervised or unsupervised classifier for the dataset is critical
+* Aspects of Netword Anomaly Detection
+  * <b>Proximity Measures, Relevant Feature Selection, Anomaly Scores</b>
 * Similarity/Proximity Measures
   * [Distance/Similarity Measures between Probability Density Functions][2]
     * It summarized many distance measures
@@ -75,6 +77,8 @@ NETWORK ANOMALUES & DATA SCIENCE
     * [Anomaly Detection with Supervised & Unsupervised Methods][11]
       * The existing ANIDS systems summary
       * Attack Detection with KDD99 data using Supervised, Unsupervised data. They found that supervised has lower FPR while unsupervised methid is better at detecting unknown methods
+* Anomaly Scores
+  * Distance Based
 
 
 **************************************************************************************************
