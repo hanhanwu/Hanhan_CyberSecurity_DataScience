@@ -82,7 +82,10 @@ BIOMETRICS
   * The sumarized patterns in mouse movent, keystroke and their correlation with user psychological behavior is pretty good
   * Data Collection
   * Data Analysis is major checking correlation between 2 items
-
+* [Biometric Cryptosystem based on Keystroke Dynamics and K medoids][10]
+  * It changes single param and check the changes of False Acceptance Rate, False Rejection Rate along the way
+  * It uses time sequence, sequencing data
+  * But, it raised my question again. Same User vs Different User, and Real User vs Attacker, are they the same? When your mom logins your phone, your computer, her different biometrics should be considered as attacker or different user, and how to dieal with this type of user? I just feel, many researchers confuser the different user and attackers, and there is a gap between real world requirements and the technology here. You build a tool to detect whether this is the same user, but his mom logged in, your tool detect that as different user and will give alarm, how many alarm the system will generate when a non-threaten user logs in....
 
 [1]:https://github.com/hanhanwu/readings/blob/master/Mouse%20behavioral%20patterns%20and%20keystroke%20dynamics%20in%20End-User%20Development.pdf
 [2]:https://github.com/hanhanwu/readings/blob/master/distance_similarity_measures.pdf
@@ -93,3 +96,4 @@ BIOMETRICS
 [7]:http://pythonhosted.org/scikit-fuzzy/auto_examples/index.html
 [8]:https://github.com/hanhanwu/readings/blob/master/roughset_anomaly_detection.pdf
 [9]:https://github.com/hanhanwu/readings/blob/master/kernel_based_IDS.pdf
+[10]:https://github.com/hanhanwu/readings/blob/master/Biometric%20Cryptosystem%20based%20on%20Keystroke%20Dynamics%20and%20K%20medoids.pdf
