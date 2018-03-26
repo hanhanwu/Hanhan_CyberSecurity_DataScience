@@ -85,7 +85,7 @@ BIOMETRICS
 * [Biometric Cryptosystem based on Keystroke Dynamics and K medoids][10]
   * It changes single param and check the changes of False Acceptance Rate, False Rejection Rate along the way
   * It uses time sequence, sequencing data
-  * But, it raised my question again. Same User vs Different User, and Real User vs Attacker, are they the same? When your mom logins your phone, your computer, her different biometrics should be considered as attacker or different user, and how to dieal with this type of user? I just feel, many researchers confuser the different user and attackers, and there is a gap between real world requirements and the technology here. You build a tool to detect whether this is the same user, but his mom logged in, your tool detect that as different user and will give alarm, how many alarm the system will generate when a non-threaten user logs in....
+  * But, it raised my question again. Same User vs Different User, and Real User vs Attacker, are they the same?
 
 [1]:https://github.com/hanhanwu/readings/blob/master/Mouse%20behavioral%20patterns%20and%20keystroke%20dynamics%20in%20End-User%20Development.pdf
 [2]:https://github.com/hanhanwu/readings/blob/master/distance_similarity_measures.pdf
