@@ -80,6 +80,8 @@ NETWORK ANOMALUES & DATA SCIENCE
       * Attack Detection with KDD99 data using Supervised, Unsupervised data. They found that supervised has lower FPR while unsupervised methid is better at detecting unknown methods
 * Anomaly Scores
   * Same as [Outlier Detection Methods in Anomalies Detection][3]
+* Dataset
+  * [KDD][13]: it is an intrusion detection benchmark dataset.
 
 
 **************************************************************************************************
@@ -107,3 +109,4 @@ BIOMETRICS
 [10]:https://github.com/hanhanwu/readings/blob/master/Biometric%20Cryptosystem%20based%20on%20Keystroke%20Dynamics%20and%20K%20medoids.pdf
 [11]:https://github.com/hanhanwu/readings/blob/master/Anomaly%20detection%20analysis%20of%20intrusion%20data%20using%20supervised%20and%20unsupervised%20approach.pdf
 [12]:http://scikit-learn.org/stable/auto_examples/decomposition/plot_kernel_pca.html
+[13]:http://kdd.ics.uci.edu/databases/kddcup99/task.html
