@@ -82,6 +82,8 @@ NETWORK ANOMALUES & DATA SCIENCE
   * Same as [Outlier Detection Methods in Anomalies Detection][3]
 * Dataset
   * [KDD][13]: it is an intrusion detection benchmark dataset.
+    * [Attack Types1][14]
+    * [Attack Types2][15]
 
 
 **************************************************************************************************
@@ -110,3 +112,5 @@ BIOMETRICS
 [11]:https://github.com/hanhanwu/readings/blob/master/Anomaly%20detection%20analysis%20of%20intrusion%20data%20using%20supervised%20and%20unsupervised%20approach.pdf
 [12]:http://scikit-learn.org/stable/auto_examples/decomposition/plot_kernel_pca.html
 [13]:http://kdd.ics.uci.edu/databases/kddcup99/task.html
+[14]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/KDD%20attacks1.png
+[15]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/KDD%20attacks2.png
