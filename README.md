@@ -94,7 +94,11 @@ NETWORK ANOMALUES & DATA SCIENCE
     * [Gulp][22] captures packets directly from the network and can write to disk at a high rate
     * [Wireshark][23] to analyze the packsts
     * [tcptrace][24] to extract features at packet level traffic
-
+      * [portscan features][26]
+      * [flow features 1][27]
+      * [flow features 2][28]
+* Network Simulation
+  * [NS-3 Network Simulator][25]
 
 **************************************************************************************************
 
@@ -133,3 +137,7 @@ BIOMETRICS
 [22]:http://staff.washington.edu/corey/gulp/
 [23]:https://www.wireshark.org/download.html
 [24]:http://www.tcptrace.org/download.shtml
+[25]:https://www.nsnam.org/overview/what-is-ns-3/
+[26]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/portscan%20features.png
+[27]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/flow%20features1.png
+[28]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/flow%20features2.png
