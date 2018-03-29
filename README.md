@@ -80,10 +80,20 @@ NETWORK ANOMALUES & DATA SCIENCE
       * Attack Detection with KDD99 data using Supervised, Unsupervised data. They found that supervised has lower FPR while unsupervised methid is better at detecting unknown methods
 * Anomaly Scores
   * Same as [Outlier Detection Methods in Anomalies Detection][3]
-* Dataset
+* Public Cyber Datasets
   * [KDD][13]: it is an intrusion detection benchmark dataset.
     * [Attack Types1][14]
     * [Attack Types2][15]
+  * [NSL-KDD][16]: it is the cleaned version of KDD99, by removing duplicated records and threfore to reduce the bias
+    * [Description][17]
+  * [Canadian Institution for CyberSecurity][18]
+  * [ADFA-IDS-Dataset - Hosted based IDS][19]
+  * [PCAP - A list of public packet capture repositories][20]
+  * [West Point Cyber Research Center][21]
+  * TUIDS dataset - private, here are the main tools they used to collect the data
+    * [Gulp][22] captures packets directly from the network and can write to disk at a high rate
+    * [Wireshark][23] to analyze the packsts
+    * [tcptrace][24] to extract features at packet level traffic
 
 
 **************************************************************************************************
@@ -114,3 +124,12 @@ BIOMETRICS
 [13]:http://kdd.ics.uci.edu/databases/kddcup99/task.html
 [14]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/KDD%20attacks1.png
 [15]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/KDD%20attacks2.png
+[16]:https://github.com/defcom17/NSL_KDD
+[17]:http://www.unb.ca/cic/datasets/nsl.html
+[18]:http://www.unb.ca/cic/datasets/index.html
+[19]:https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-IDS-Datasets/
+[20]:http://www.netresec.com/?page=PcapFiles
+[21]:https://www.westpoint.edu/crc/SitePages/DataSets.aspx
+[22]:http://staff.washington.edu/corey/gulp/
+[23]:https://www.wireshark.org/download.html
+[24]:http://www.tcptrace.org/download.shtml
