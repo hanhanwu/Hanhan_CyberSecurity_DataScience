@@ -112,6 +112,15 @@ BIOMETRICS
   * It changes single param and check the changes of False Acceptance Rate, False Rejection Rate along the way
   * It uses time sequence, sequencing data
   * But, it raised my question again. Same User vs Different User, and Real User vs Attacker, are they the same?
+* [Unconstrained keystroke dynamics][31]
+  * They got better results by doing filtering BEFORE selecting into the training data - Samples are added only when they are not far too different from the enrolled samples.
+    * The new sample is added to the database only if it is well-correlated with the enrolled samples. 
+    * They used absolute value of the Pearson correlation factor between the test vector and the average enrolled vectors.
+  * Individual threshold is a little better than global threshold - each individual user will have a accept/reject threshold, instead of using the same thresholds for all the users 
+    * But it cannot be applied in the case of using a different password for each user
+  * There is a small break before typing the next password which can help avoid the problem of users typing mechanically too similar patterns 
+  * They have tested if this error rate of acquiring process is dependant on the user’s typing speed, but it seems that there is no significant correlation (The Pearson correla- tion factor between typing speed and acquisition error rate is -0.28).
+  * There is no significant difference between the two keyboard during the enrollment and verification phases.
 * [GREYC-keystroke dataset][29]
   * Their dataset is in .db format, that's sqlite files, you need to use [sqlite browser][30] to open the files, then you will see each table in the file. Just click that .db file after installing sqlite browser.
 
@@ -145,3 +154,4 @@ BIOMETRICS
 [28]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/flow%20features2.png
 [29]:http://www.epaymentbiometrics.ensicaen.fr/resources/databases
 [30]:https://github.com/sqlitebrowser/sqlitebrowser
+[31]:https://github.com/hanhanwu/readings/blob/master/Unconstrained%20keystroke%20dynamics.pdf
