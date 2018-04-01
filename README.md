@@ -113,7 +113,7 @@ BIOMETRICS
   * It uses time sequence, sequencing data
   * But, it raised my question again. Same User vs Different User, and Real User vs Attacker, are they the same?
 * [Unconstrained keystroke dynamics][31]
-  * They got better results by doing filtering BEFORE selecting into the training data - Samples are added only when they are not far too different from the enrolled samples.
+  * They got better results by doing filtering BEFORE selecting into the training data - Samples are added only when they are not far too different from the enrolled samples.
     * The new sample is added to the database only if it is well-correlated with the enrolled samples. 
     * They used absolute value of the Pearson correlation factor between the test vector and the average enrolled vectors.
   * Individual threshold is a little better than global threshold - each individual user will have a accept/reject threshold, instead of using the same thresholds for all the users
