@@ -80,7 +80,20 @@ NETWORK ANOMALUES & DATA SCIENCE
       * Attack Detection with KDD99 data using Supervised, Unsupervised data. They found that supervised has lower FPR while unsupervised methid is better at detecting unknown methods
 * Anomaly Scores
   * Same as [Outlier Detection Methods in Anomalies Detection][3]
-* Public Cyber Datasets
+* Feature Selection
+  * Feature Selection vs Feature Extraction
+    * Feature selection selects a subset of features from the original dataset
+    * Feature extraction projects original features into another feature space with lower dimension, such as PCA, SVD (singular value decomposition)
+    * Both are trying to reduce the dimension
+    * Feature Selection Basic Steps
+    ![feature selection basic steps](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/feature%20selection%20basic%20steps.png)
+    * Heuristic Subset Generation - forward, backward, bidirectional. In most cases, backward and bidirectional may work better than forward
+    * Complete Subset Generation - generate all possible subsets of features (pow(2,n) unique subsets)
+    * Dependent vs Independent subset evaluation criteria: Dependent criteria is to assess the results of dependent variables created by your model; Independent criteria is just to check features, such as similarity, correlation, etc.
+    * Subset Evaluation Measures
+    ![Subset Evaluation Measures](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/subset%20evaluation%20measures.png)
+  
+* <b>Public Cyber Datasets</b>
   * [KDD][13]: it is an intrusion detection benchmark dataset.
     * [Attack Types1][14]
     * [Attack Types2][15]
@@ -138,6 +151,14 @@ BIOMETRICS
 * <b>DATASETS</b>
   * [GREYC-keystroke dataset][29]
     * Their dataset is in .db format, that's sqlite files, you need to use [sqlite browser][30] to open the files, then you will see each table in the file. Just click that .db file after installing sqlite browser.
+    
+    
+**************************************************************************************************
+
+REFERENCES
+
+* [Network Anomaly Detection:A Machine Learning Perspective][33]
+  * [Official Link][34]
 
 [1]:https://github.com/hanhanwu/readings/blob/master/Mouse%20behavioral%20patterns%20and%20keystroke%20dynamics%20in%20End-User%20Development.pdf
 [2]:https://github.com/hanhanwu/readings/blob/master/distance_similarity_measures.pdf
@@ -171,3 +192,5 @@ BIOMETRICS
 [30]:https://github.com/sqlitebrowser/sqlitebrowser
 [31]:https://github.com/hanhanwu/readings/blob/master/Unconstrained%20keystroke%20dynamics.pdf
 [32]:https://github.com/hanhanwu/readings/blob/master/sliding%20vs%20growing%20window.pdf
+[33]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781466582095?uicode=simonfraser
+[34]:https://www.crcpress.com/Network-Anomaly-Detection-A-Machine-Learning-Perspective/Bhattacharyya-Kalita/p/book/9781466582088
