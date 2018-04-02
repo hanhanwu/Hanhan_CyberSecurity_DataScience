@@ -121,8 +121,23 @@ BIOMETRICS
   * There is a small break before typing the next password which can help avoid the problem of users typing mechanically too similar patterns 
   * They have tested if this error rate of acquiring process is dependant on the user’s typing speed, but it seems that there is no significant correlation (The Pearson correla- tion factor between typing speed and acquisition error rate is -0.28).
   * There is no significant difference between the two keyboard during the enrollment and verification phases.
-* [GREYC-keystroke dataset][29]
-  * Their dataset is in .db format, that's sqlite files, you need to use [sqlite browser][30] to open the files, then you will see each table in the file. Just click that .db file after installing sqlite browser.
+* [Sliding vs Growing window][32]
+  * In fact, in this paper, it compared multiple data processing methods, Sliding, Growing, others with Static method
+    * Static Method, they used 10 records training
+    * Sliding Window: replace the oldest one with the newest qualified one
+    * Growing Window: keep growing the qualified records
+    * Other methods, looks like will take longer time to process
+  * Sliding vs Growing Windows
+    * It seems that Sliding window method provides the balanced accuracy close to the best result
+    * Sliding window has lower False Accept Rate (accept the different user rate) than Growing window, but has higher False Reject Rate (reject the same user rate) than Growing window
+      * I think this finding is very interesting
+      * This is true in all the 3 datasets
+  * The comparison of 3 datasets here is pretty good
+  ![3 datasets](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/3%20datasets.png)
+  * It is a better practice to report FAR, FRR with the params
+* <b>DATASETS</b>
+  * [GREYC-keystroke dataset][29]
+    * Their dataset is in .db format, that's sqlite files, you need to use [sqlite browser][30] to open the files, then you will see each table in the file. Just click that .db file after installing sqlite browser.
 
 [1]:https://github.com/hanhanwu/readings/blob/master/Mouse%20behavioral%20patterns%20and%20keystroke%20dynamics%20in%20End-User%20Development.pdf
 [2]:https://github.com/hanhanwu/readings/blob/master/distance_similarity_measures.pdf
@@ -155,3 +170,4 @@ BIOMETRICS
 [29]:http://www.epaymentbiometrics.ensicaen.fr/resources/databases
 [30]:https://github.com/sqlitebrowser/sqlitebrowser
 [31]:https://github.com/hanhanwu/readings/blob/master/Unconstrained%20keystroke%20dynamics.pdf
+[32]:https://github.com/hanhanwu/readings/blob/master/sliding%20vs%20growing%20window.pdf
