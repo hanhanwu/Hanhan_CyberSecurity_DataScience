@@ -148,17 +148,29 @@ BIOMETRICS
   * The comparison of 3 datasets here is pretty good
   ![3 datasets](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/3%20datasets.png)
   * It is a better practice to report FAR, FRR with the params
+* Summarized anomaly detection methods
+![anomaly detection methods](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/anomaly%20detection%20methods.png)
 * <b>DATASETS</b>
   * [GREYC-keystroke dataset][29]
     * Their dataset is in .db format, that's sqlite files, you need to use [sqlite browser][30] to open the files, then you will see each table in the file. Just click that .db file after installing sqlite browser.
     
+**************************************************************************************************
     
+OPEN SOURCES
+
+* [Snort - Rule Based IDS][35]
+  * This open-source system matches each packet it observes against a set of rules.
+  * Snort rules identify attack packets based on IP addresses, TCP or UDP port numbers, ICMP codes or types and contents of strings in the packet payload.
+  * Each Snort rule has associated documentation with the potential for false positives and negatives, together with corrective actions to be taken when the rule raises an alert.
+  * An intrusion detection system like Snort can run on a general purpose computer and can try to inspect all packets that go through the network. However, monitoring packets comprehensively in a large net- work is obviously an expensive task since it requires fast inspection on a large number of network interfaces. Many hundreds of rules may have to be matched concurrently, making scaling almost impossible.
+
 **************************************************************************************************
 
 REFERENCES
 
 * [Network Anomaly Detection:A Machine Learning Perspective][33]
   * [Official Link][34]
+  * The book provides details description in all chapters. It's also like a book of survey, instead of describing all the complex concepts, it refered many papers and briefly summarized how those research work with relevant methods.
 
 [1]:https://github.com/hanhanwu/readings/blob/master/Mouse%20behavioral%20patterns%20and%20keystroke%20dynamics%20in%20End-User%20Development.pdf
 [2]:https://github.com/hanhanwu/readings/blob/master/distance_similarity_measures.pdf
@@ -194,3 +206,4 @@ REFERENCES
 [32]:https://github.com/hanhanwu/readings/blob/master/sliding%20vs%20growing%20window.pdf
 [33]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781466582095?uicode=simonfraser
 [34]:https://www.crcpress.com/Network-Anomaly-Detection-A-Machine-Learning-Perspective/Bhattacharyya-Kalita/p/book/9781466582088
+[35]:https://www.snort.org/downloads/#rule-downloads
