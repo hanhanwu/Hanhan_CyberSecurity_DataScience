@@ -92,6 +92,8 @@ NETWORK ANOMALUES & DATA SCIENCE
     * Dependent vs Independent subset evaluation criteria: Dependent criteria is to assess the results of dependent variables created by your model; Independent criteria is just to check features, such as similarity, correlation, etc.
     * Subset Evaluation Measures
     ![Subset Evaluation Measures](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/subset%20evaluation%20measures.png)
+* Summarized anomaly detection methods
+![anomaly detection methods](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/anomaly%20detection%20methods.png)
   
 * <b>Public Cyber Datasets</b>
   * [KDD][13]: it is an intrusion detection benchmark dataset.
@@ -148,8 +150,11 @@ BIOMETRICS
   * The comparison of 3 datasets here is pretty good
   ![3 datasets](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/3%20datasets.png)
   * It is a better practice to report FAR, FRR with the params
-* Summarized anomaly detection methods
-![anomaly detection methods](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/anomaly%20detection%20methods.png)
+* [Soft biometrics to help prediction][36]
+  * It gets help from soft biometrics for more accurate prediction. Soft biometrics such as age, gender, one/two hands typing, left/right hand typing
+  * feature vector "[PP, RR, PR, RP]"
+  * When using resampling with replacement, they calculated CI (confidence interval) at 95%, `CI = sample_mean * sample_standard_deviation/sqrt(N)`, N = 100 here which means ramdomly draw 100 times
+  
 * <b>DATASETS</b>
   * [GREYC-keystroke dataset][29]
     * Their dataset is in .db format, that's sqlite files, you need to use [sqlite browser][30] to open the files, then you will see each table in the file. Just click that .db file after installing sqlite browser.
@@ -207,3 +212,4 @@ REFERENCES
 [33]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781466582095?uicode=simonfraser
 [34]:https://www.crcpress.com/Network-Anomaly-Detection-A-Machine-Learning-Perspective/Bhattacharyya-Kalita/p/book/9781466582088
 [35]:https://www.snort.org/downloads/#rule-downloads
+[36]:https://github.com/hanhanwu/readings/blob/master/profiling%20while%20type%20passwords.pdf
