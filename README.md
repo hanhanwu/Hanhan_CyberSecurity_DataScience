@@ -154,6 +154,9 @@ BIOMETRICS
   * It gets help from soft biometrics for more accurate prediction. Soft biometrics such as age, gender, one/two hands typing, left/right hand typing
   * feature vector "[PP, RR, PR, RP]"
   * When using resampling with replacement, they calculated CI (confidence interval) at 95%, `CI = sample_mean * sample_standard_deviation/sqrt(N)`, N = 100 here which means ramdomly draw 100 times
+* [Android keystroke dynamics][37]
+  * Some of their feature elements are interesting
+  ![android features](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/android%20keystroke%20features.png)
   
 * <b>DATASETS</b>
   * [GREYC-keystroke dataset][29]
@@ -213,3 +216,4 @@ REFERENCES
 [34]:https://www.crcpress.com/Network-Anomaly-Detection-A-Machine-Learning-Perspective/Bhattacharyya-Kalita/p/book/9781466582088
 [35]:https://www.snort.org/downloads/#rule-downloads
 [36]:https://github.com/hanhanwu/readings/blob/master/profiling%20while%20type%20passwords.pdf
+[37]:https://www.sciencedirect.com/science/article/pii/S221201731500119X
