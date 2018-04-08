@@ -104,6 +104,17 @@ NETWORK ANOMALUES & DATA SCIENCE
   * They used basic association rules algorithms to train on normal sample and got fuzzy association ruleset, then for the etsting data, they generate rules and check the compability of generated rules with training data rules, when the compability value is higher than a threshold, label as 'normal', otherwise 'un-normal'
     * Using normal data only as training data, can help detect unknown attacks
   ![association rule classification](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/association%20rules%20prediction.png)
+* Markov Chain in Anomaly Detection
+  * [Markov Chain Model to seperate normal and intrusive activities][42]
+    * It focuses on host intrusion, using audit data
+    * Markov is used to build a temporal profile of normal & intrusive activities
+      * The probability distribution of the state at time t+1 is dependent on the state at time t, but not dependent on earlier states
+      * A state transition from t to t+1 is indenpendent of time
+    * They calculated the probability of the support to the testing data from normal activities and intrusive activities, then based on the differences between the probabilities, they said the method can differentiate normal activity and intrisive activity clearly
+  * [Hidden Markov Models][43]
+    * It's a type of dynamic bayesian network, which means it's a bayesian network model for tiem series data
+    * It's represneting the probability distribution over sequences of observations
+  
   
 * <b>Public Cyber Datasets</b>
   * [KDD][13]: it is an intrusion detection benchmark dataset.
@@ -231,3 +242,5 @@ REFERENCES
 [39]:https://www.iitk.ac.in/eeold/archive/courses/2013/intel-info/d1pdf3.pdf
 [40]:https://github.com/hanhanwu/readings/blob/master/ais.pdf
 [41]:https://github.com/hanhanwu/readings/blob/master/fuzzy%20association%20rules%20in%20anomaly%20detection.pdf
+[42]:https://github.com/hanhanwu/readings/blob/master/markov%20chain%20anomaly%20detection.pdf
+[43]:https://github.com/hanhanwu/readings/blob/master/An%20Introduction%20to%20hidden%20Markov%20models%20and%20Bayesian%20networks.pdf
