@@ -100,6 +100,9 @@ NETWORK ANOMALUES & DATA SCIENCE
     * <b>It has the pseudo code of somemajor algorithms in AIS</b>, also relevant papers, one did a real-time detection
   * [Artificial immune system based on interval type-2 fuzzy set paradigm][38]
     * [More about type-2 fuzzy sets][39]
+* [Fuzzy Association Rules][41]
+  * They used basic association rules algorithms to train on normal sample and got fuzzy association ruleset, then for the etsting data, they generate rules and check the compability of generated rules with training data rules, when the compability value is higher than a threshold, label as 'normal', otherwise 'un-normal'
+  ![association rule classification](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/association%20rules%20prediction.png)
   
 * <b>Public Cyber Datasets</b>
   * [KDD][13]: it is an intrusion detection benchmark dataset.
@@ -226,3 +229,4 @@ REFERENCES
 [38]:https://github.com/hanhanwu/readings/blob/master/AIS%20anomaly%20detection.pdf
 [39]:https://www.iitk.ac.in/eeold/archive/courses/2013/intel-info/d1pdf3.pdf
 [40]:https://github.com/hanhanwu/readings/blob/master/ais.pdf
+[41]:https://github.com/hanhanwu/readings/blob/master/fuzzy%20association%20rules%20in%20anomaly%20detection.pdf
