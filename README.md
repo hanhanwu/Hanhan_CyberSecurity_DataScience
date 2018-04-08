@@ -94,6 +94,12 @@ NETWORK ANOMALUES & DATA SCIENCE
     ![Subset Evaluation Measures](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/subset%20evaluation%20measures.png)
 * Summarized anomaly detection methods
 ![anomaly detection methods](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/anomaly%20detection%20methods.png)
+* AIS - Artificial Immune System
+  * The idea is inspired by human immune system, the way it detects anomalies to protect our health
+  * [An overview of AIS][40]
+    * <b>It has the pseudo code of somemajor algorithms in AIS</b>, also relevant papers, one did a real-time detection
+  * [Artificial immune system based on interval type-2 fuzzy set paradigm][38]
+    * [More about type-2 fuzzy sets][39]
   
 * <b>Public Cyber Datasets</b>
   * [KDD][13]: it is an intrusion detection benchmark dataset.
@@ -157,10 +163,6 @@ BIOMETRICS
 * [Android keystroke dynamics][37]
   * Some of their feature elements are interesting
   ![android features](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/android%20keystroke%20features.png)
-* AIS - Artificial Immune System
-  * The idea is inspired by human immune system, the way it detects anomalies to protect our health
-  * [Artificial immune system based on interval type-2 fuzzy set paradigm][38]
-    * [More about type-2 fuzzy sets][39]
   
 * <b>DATASETS</b>
   * [GREYC-keystroke dataset][29]
@@ -223,3 +225,4 @@ REFERENCES
 [37]:https://www.sciencedirect.com/science/article/pii/S221201731500119X
 [38]:https://github.com/hanhanwu/readings/blob/master/AIS%20anomaly%20detection.pdf
 [39]:https://www.iitk.ac.in/eeold/archive/courses/2013/intel-info/d1pdf3.pdf
+[40]:https://github.com/hanhanwu/readings/blob/master/ais.pdf
