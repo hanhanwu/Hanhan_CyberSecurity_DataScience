@@ -128,6 +128,24 @@ NETWORK ANOMALUES & DATA SCIENCE
     ![2 stage PCA NN](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/2%20stage%20PCA%20NN.png)
     * Among all the evaluation metrics, CPE considers the cost matrix, which represents the cost penalty for misclassifying an instance belonging to class i into class j.
     ![evaluation metrics](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/evaluation%20methods.png)
+
+* Evaluation Methods
+  * Correctness
+    * Sensitivity & Specificity
+      * `Sensitivity (recall or true positive rate) = TP/(TP + FN)`
+      * `Specificity (true negative rate) = TN/(TN + FP)`
+      * This method measures how accurate the prediction in both positive & negative classes
+    * Misclassification Rate
+      * `Misclassification Rate = (FP+FN)/(TP+TN+FN+FP)`
+      * It measures the probability of disagreement between true label and the predicted results
+    * Confusion Matrix, precision & recall, F1
+      * Can be used on n-class prediction
+      * `F1 (balanced F score) = 2*precision*recall/(precision+recall)`, with F1, you get a hamonic mean of precision and recall. F1 is a prefered metrics for n-class prediction
+    * ROC curve
+      * TPR, FPR
+      * Sometimes, when comparing 2 models, one model has higher TPR but lower FPR, the other one is the opposite. So better to calcuate AUC at the same time.
+  * Data
+  * Efficiency
   
 * <b>Public Cyber Datasets</b>
   * [KDD][13]: it is an intrusion detection benchmark dataset.
