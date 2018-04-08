@@ -102,6 +102,7 @@ NETWORK ANOMALUES & DATA SCIENCE
     * [More about type-2 fuzzy sets][39]
 * [Fuzzy Association Rules][41]
   * They used basic association rules algorithms to train on normal sample and got fuzzy association ruleset, then for the etsting data, they generate rules and check the compability of generated rules with training data rules, when the compability value is higher than a threshold, label as 'normal', otherwise 'un-normal'
+    * Using normal data only as training data, can help detect unknown attacks
   ![association rule classification](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/association%20rules%20prediction.png)
   
 * <b>Public Cyber Datasets</b>
