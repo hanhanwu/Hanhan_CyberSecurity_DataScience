@@ -121,6 +121,13 @@ NETWORK ANOMALUES & DATA SCIENCE
   * [PyMC3 - Probabilistic Programming in Python][45]
     * [Model Examples - wow!][46]
     * [IPython practical examples!][47]
+* [2 Stage PCA NN][48]
+  * I like multiple points in this paper
+    * <b>It describes how PCA works well</b>, finally I learned more about the projections
+    * Each class of KDD99 data, they used an individual PCA to train in the first stage
+    ![2 stage PCA NN](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/2%20stage%20PCA%20NN.png)
+    * Among all the evaluation metrics, CPE considers the cost matrix, which represents the cost penalty for misclassifying an instance belonging to class i into class j.
+    ![evaluation metrics](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/evaluation%20methods.png)
   
 * <b>Public Cyber Datasets</b>
   * [KDD][13]: it is an intrusion detection benchmark dataset.
@@ -254,3 +261,4 @@ REFERENCES
 [45]:http://docs.pymc.io/notebooks/getting_started
 [46]:http://docs.pymc.io/examples
 [47]:https://hub.mybinder.org/user/pymc-devs-pymc3-vs79j63z/tree//docs/source/notebooks
+[48]:https://github.com/hanhanwu/readings/blob/master/2%20stages%20PCA%20NN.pdf
