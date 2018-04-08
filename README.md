@@ -114,7 +114,10 @@ NETWORK ANOMALUES & DATA SCIENCE
   * [Hidden Markov Models][43]
     * It's a type of dynamic bayesian network, which means it's a bayesian network model for tiem series data
     * It's represneting the probability distribution over sequences of observations
-  
+* [Gausian Mixture Model in Anomaly detection][44]
+  * [PyMC3 - Probabilistic Programming in Python][45]
+    * [Model Examples - wow!][46]
+    * [IPython practical examples!][47]
   
 * <b>Public Cyber Datasets</b>
   * [KDD][13]: it is an intrusion detection benchmark dataset.
@@ -244,3 +247,7 @@ REFERENCES
 [41]:https://github.com/hanhanwu/readings/blob/master/fuzzy%20association%20rules%20in%20anomaly%20detection.pdf
 [42]:https://github.com/hanhanwu/readings/blob/master/markov%20chain%20anomaly%20detection.pdf
 [43]:https://github.com/hanhanwu/readings/blob/master/An%20Introduction%20to%20hidden%20Markov%20models%20and%20Bayesian%20networks.pdf
+[44]:https://github.com/hanhanwu/readings/blob/master/GMM%20anomaly%20detection.pdf
+[45]:http://docs.pymc.io/notebooks/getting_started
+[46]:http://docs.pymc.io/examples
+[47]:https://hub.mybinder.org/user/pymc-devs-pymc3-vs79j63z/tree//docs/source/notebooks
