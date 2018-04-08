@@ -115,6 +115,9 @@ NETWORK ANOMALUES & DATA SCIENCE
     * It's a type of dynamic bayesian network, which means it's a bayesian network model for tiem series data
     * It's represneting the probability distribution over sequences of observations
 * [Gausian Mixture Model in Anomaly detection][44]
+  * I like this paper, it described the experimental steps, background info and concepts in detail
+  * HGMM 2 Phases
+  ![HGMM 2 Phases](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/HGMM%202%20phases.png)
   * [PyMC3 - Probabilistic Programming in Python][45]
     * [Model Examples - wow!][46]
     * [IPython practical examples!][47]
