@@ -130,6 +130,7 @@ NETWORK ANOMALUES & DATA SCIENCE
     ![evaluation metrics](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/evaluation%20methods.png)
 
 * Evaluation Methods
+![3d evaluation measures](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/3d%20evaluation%20methods.png)
   * Correctness
     * Sensitivity & Specificity
       * `Sensitivity (recall or true positive rate) = TP/(TP + FN)`
@@ -144,8 +145,45 @@ NETWORK ANOMALUES & DATA SCIENCE
     * ROC curve
       * TPR, FPR
       * Sometimes, when comparing 2 models, one model has higher TPR but lower FPR, the other one is the opposite. So better to calcuate AUC at the same time.
+    * Cost Matrix & confusion Matrix
+      * Measures the cost penality of each dis-classification
   * Data
+    * Data Quality
+      * Better not to oversampling not under-sampling, better to be balanced to reduce bias (I don't really agree in many cases)
+      * The time of data collection, better to be recently updated
+    * Data Validity
+      * Internal Validity: it measures the degree of certainty that observed effects is in experimental condition, without being affected by other extra factors
+      * External Validity: it measures the generic characteristics
+    * Reliability (so hard to achieve in many cases)
+      * Complete (full observations and variables)
+      * Consistent 
+      * Kappa Analysis - multiple people analysis, statistical reliability test
   * Efficiency
+  
+* <b>Attack Launch Tools</b>
+  * Overview
+  ![attack tools](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/attack%20tools.png)
+  * Sniffing Tools
+    * "A sniffing tool aims to capture, examine, analyze and visualize pack- ets or frames traversing the network. To support extraction of addi- tional packet features and for subsequent analysis, it also understands the protocols and accordingly includes protocol parameters during vi- sualization."
+    ![sniffing tools](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/sniffing%20tools.png)
+  * Network Mapping or Scanning Tools
+    * "A network scanning tool aims to identify active hosts on a network, either (i) to attack them or (ii) to assess vulnerabilities in the network. It provides an overall status report regarding network hosts, ports, IPs, etc. The four possible types of port scans are (i) one-to-one, (ii) one-to- many, (iii) many-to-one and (iv) many-to-many."
+    ![mapping & scanning tools](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/scanning%20tools.png)
+  * Attack Launching Tools
+    * [Attack Tools 1][49]
+    * [Attack Launch Tools 1][50]
+    * [Attack Launch Tools 2][50]
+  * Packet Forging Tools
+    * "Packet forging tools are useful in forging or manipulating packet in- formation. An attacker can generate traffic with manipulated IP ad- dresses based on this category of tools."
+    ![packet forging tools](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/packet%20forging%20tools.png)
+  * Fingerprinting Attack Tools
+    * "Fingerprinting tools are used to identify specific features of a network protocol implementation by analyzing its input and output behavior. The identified features include protocol version, vendor information and configurable parameters. Fingerprinting tools are used to identify the operating system running on a remote machine and can also be used for other purposes."
+    ![fingerprinting tools](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/fingerprinting%20tools.png)
+  * Other Attack Related Tools
+  ![Other Attack Related Tools](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/other%20attack%20tools.png)
+  * Monitoring Tools
+  ![Monitoriing Tools](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/monitoring%20tools.png)
+    
   
 * <b>Public Cyber Datasets</b>
   * [KDD][13]: it is an intrusion detection benchmark dataset.
@@ -280,3 +318,6 @@ REFERENCES
 [46]:http://docs.pymc.io/examples
 [47]:https://hub.mybinder.org/user/pymc-devs-pymc3-vs79j63z/tree//docs/source/notebooks
 [48]:https://github.com/hanhanwu/readings/blob/master/2%20stages%20PCA%20NN.pdf
+[49]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/attack_tools.png
+[50]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/attack%20launch1.png
+[51]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/attack%20launch2.png
