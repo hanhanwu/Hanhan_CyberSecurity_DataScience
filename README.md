@@ -204,6 +204,16 @@ NETWORK ANOMALUES & DATA SCIENCE
       * [flow features 2][28]
 * Network Simulation
   * [NS-3 Network Simulator][25]
+  
+**************************************************************************************************
+
+USE CASES
+
+* Supervised Learning in Signature Detection
+  * Association Rules
+    * With priori knowledge (domain knowledge), you will be able to filter out rule or add constraints to rules
+    * Here's an example about how to interprete association rules in signature detection. `confident=1` indicates that all the mail sent has this pattern/satisfy this rule. `support=0.25` indicates that 25% of the instances in the data data has this pattern
+    ![assiciation rule in signature detection](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/association_rule_signature_detection.png)
 
 **************************************************************************************************
 
@@ -269,6 +279,9 @@ REFERENCES
 * [Network Anomaly Detection:A Machine Learning Perspective][33]
   * [Official Link][34]
   * The book provides details description in all chapters. It's also like a book of survey, instead of describing all the complex concepts, it refered many papers and briefly summarized how those research work with relevant methods.
+  
+* [Data Mining and Machine Learning in Cybersecurity][52]
+  * This book has specific simple use cases, to help you understand how to apply those machine learning methods in cyber security
 
 [1]:https://github.com/hanhanwu/readings/blob/master/Mouse%20behavioral%20patterns%20and%20keystroke%20dynamics%20in%20End-User%20Development.pdf
 [2]:https://github.com/hanhanwu/readings/blob/master/distance_similarity_measures.pdf
@@ -321,3 +334,4 @@ REFERENCES
 [49]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/attack_tools.png
 [50]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/attack%20launch1.png
 [51]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/attack%20launch2.png
+[52]:https://dl.acm.org/citation.cfm?id=2018783
