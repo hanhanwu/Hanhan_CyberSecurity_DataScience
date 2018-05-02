@@ -214,6 +214,10 @@ USE CASES
     * With priori knowledge (domain knowledge), you will be able to filter out rule or add constraints to rules
     * Here's an example about how to interprete association rules in signature detection. `confident=1` indicates that all the mail sent has this pattern/satisfy this rule. `support=0.25` indicates that 25% of the instances in the data data has this pattern
     ![assiciation rule in signature detection](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/association_rule_signature_detection.png)
+  * Fuzzy-Rule Based
+    * Rules in association rules gives an absolute answer for classification, that is the rule leads to this class and not that class. Fuzzy-Rule based method is to give the probability to the rule of which class it belongs to
+    * In a word, it's similar to classification problems, we generate Response or Probability as the prediction results
+    * [This paper has provided 3 detailed methods about fuzzed-rule based attack detection][54]
 
 **************************************************************************************************
 
@@ -335,3 +339,4 @@ REFERENCES
 [50]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/attack%20launch1.png
 [51]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/attack%20launch2.png
 [52]:https://dl.acm.org/citation.cfm?id=2018783
+[54]:https://pdfs.semanticscholar.org/2a90/534ed66493159991a7e6d400d3854edbfd2a.pdf
