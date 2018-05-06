@@ -218,6 +218,34 @@ USE CASES
     * Rules in association rules gives an absolute answer for classification, that is the rule leads to this class and not that class. Fuzzy-Rule based method is to give the probability to the rule of which class it belongs to
     * In a word, it's similar to classification problems, we generate Response or Probability as the prediction results
     * [This paper has provided 3 detailed methods about fuzzed-rule based attack detection][54]
+  * ANN (Artificial Neural Network)
+    * Fast and Accurate
+    * But the attack data has to be large enough in the training data, and be balanced as normal data (which in challenging in practice)
+  * SVM
+    * Faster than ANN - Speed is important in real time detection
+    * Scability is better than ANN, which is important in large cyber infrastructure information flow
+    * SVM can also DYNAMICALLY update the training patterns, which is important when attack patterns changed
+    * SVM works better when the data amount is small but feature count is large
+  * Genetic Programming (GP)
+    * I think these methods are more related to feature selection and therefore finally you got optimized model/features
+    ![GP](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/GP.png)
+    * Practical Examples using GP
+      * [Feature Selection][56]
+      * [Algorithms used in Optimization problems][57]
+  * Decision Trees
+    * Nonparametric, so it doesn't make assumptions on the data
+    * Can help generate rules
+    * High prediction accuracy, intuitive knowledge expression, simple implementation, efficiency and strength in handling high dimensional data
+    * Entropy vs Gini Index
+      * Entropy measures the amount of disorder in a set or how mixed a set is. Higher the entropy is, more mixed th set is. When we are going to choose a feature to split the tree, choose the feature that will lead to lowest entropy
+      * How to calculate Entropy
+        * `p(i) = count(outcome)/total_records`, it's the frequency of each item
+        * `Entropy` start as 0.0
+        * `Entropy = Entropy - p(i)*log2(pi) = -sum(p(i)*log2(pi))`
+      * [Example to calculate Entropy & Information Gain][58]
+      * `Gini Index = 1 - sum(p(i)^2)`
+      * [Example to calculate Gini Impurity][59]
+      * Compared with Gini Impurity, Entropy peaks slower and tends to penalize mixed sets a little more heaviler.
     
 * Graph Database
   * [Neo4j Fraud Detection][55]
@@ -345,3 +373,7 @@ REFERENCES
 [52]:https://dl.acm.org/citation.cfm?id=2018783
 [54]:https://pdfs.semanticscholar.org/2a90/534ed66493159991a7e6d400d3854edbfd2a.pdf
 [55]:https://github.com/hanhanwu/readings/blob/master/Neo4j_WP-Fraud-Detection-with-Graph-Databases.pdf
+[56]:https://www.kaggle.com/randxie/genetic-algorithm-for-feature-selection
+[57]:https://github.com/hanhanwu/Hanhan-Machine-Learning-Model-Implementation/blob/master/ReadMe_Optimization.md
+[58]:http://www.saedsayad.com/decision_tree.htm
+[59]:http://people.revoledu.com/kardi/tutorial/DecisionTree/how-to-measure-impurity.htm
