@@ -218,6 +218,10 @@ USE CASES
     * Rules in association rules gives an absolute answer for classification, that is the rule leads to this class and not that class. Fuzzy-Rule based method is to give the probability to the rule of which class it belongs to
     * In a word, it's similar to classification problems, we generate Response or Probability as the prediction results
     * [This paper has provided 3 detailed methods about fuzzed-rule based attack detection][54]
+    
+* Graph Database
+  * [Neo4j Fraud Detection][55]
+    * The basic idea here is, multiple fraudsters are using duplicated entities when do the fraud. Using graph database can help find these links
 
 **************************************************************************************************
 
@@ -340,3 +344,4 @@ REFERENCES
 [51]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/attack%20launch2.png
 [52]:https://dl.acm.org/citation.cfm?id=2018783
 [54]:https://pdfs.semanticscholar.org/2a90/534ed66493159991a7e6d400d3854edbfd2a.pdf
+[55]:https://github.com/hanhanwu/readings/blob/master/Neo4j_WP-Fraud-Detection-with-Graph-Databases.pdf
