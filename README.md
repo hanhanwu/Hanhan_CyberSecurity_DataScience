@@ -246,6 +246,9 @@ USE CASES
       * `Gini Index = 1 - sum(p(i)^2)`
       * [Example to calculate Gini Impurity][59]
       * Compared with Gini Impurity, Entropy peaks slower and tends to penalize mixed sets a little more heaviler.
+  * Bayesian Network
+    * If rule-based methods tend to consider each individual features seperately, bayesian network will include the dependency between features
+    * Naive Bayesian is an exception, it assumes all the features are independent from each other, different from other Bayesian network methods
     
 * Graph Database
   * [Neo4j Fraud Detection][55]
