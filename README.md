@@ -215,7 +215,7 @@ USE CASES
     * Here's an example about how to interprete association rules in signature detection. `confident=1` indicates that all the mail sent has this pattern/satisfy this rule. `support=0.25` indicates that 25% of the instances in the data data has this pattern
     ![assiciation rule in signature detection](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/association_rule_signature_detection.png)
   * Fuzzy-Rule Based
-    * Rules in association rules gives an absolute answer for classification, that is the rule leads to this class and not that class. Fuzzy-Rule based method is to give the probability to the rule of which class it belongs to
+    * Rules in association rules gives an absolute answer for classification, that is the rule leads to this class and not that class. Fuzzy-Rule based method is to give the probability to the rule of which class it belongs to, by comparing the similarity between rules
     * In a word, it's similar to classification problems, we generate Response or Probability as the prediction results
     * [This paper has provided 3 detailed methods about fuzzed-rule based attack detection][54]
   * ANN (Artificial Neural Network)
@@ -249,6 +249,11 @@ USE CASES
   * Bayesian Network
     * If rule-based methods tend to consider each individual features seperately, bayesian network will include the dependency between features
     * Naive Bayesian is an exception, it assumes all the features are independent from each other, different from other Bayesian network methods
+* Anomalies Detection
+  * Association Rules, Fuzzy Rule-based methods
+  * ANN
+  * SVM
+  * KNN - k has to be larger than the number of distinct anomaly type. Distance Based, Density Based
     
 * Graph Database
   * [Neo4j Fraud Detection][55]
