@@ -254,6 +254,11 @@ USE CASES
   * ANN
   * SVM
   * KNN - k has to be larger than the number of distinct anomaly type. Distance Based, Density Based
+  * Hidden Markov Model (HMM)
+    * It can model temporal variations in program behavior. 
+    * With HMM, you have a set of normal sequences, when there is a testing sequence, you calculate the similarity probability, lower than a threshold, the testing sequence will be marked as anomaly.
+    * I think this method is especially useful when behaviors of a program are happening in time order
+    * HMM has high accuracy, but the training time is long because the training requires mutiple passes, it also requires extensive memory to store transition probability through the training.
     
 * Graph Database
   * [Neo4j Fraud Detection][55]
