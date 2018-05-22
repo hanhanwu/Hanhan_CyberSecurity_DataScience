@@ -259,6 +259,13 @@ USE CASES
     * With HMM, you have a set of normal sequences, when there is a testing sequence, you calculate the similarity probability, lower than a threshold, the testing sequence will be marked as anomaly.
     * I think this method is especially useful when behaviors of a program are happening in time order
     * HMM has high accuracy, but the training time is long because the training requires mutiple passes, it also requires extensive memory to store transition probability through the training.
+  * Kalman Filtering
+    * It uses a series measurements along the time,instead of only 1 measurement
+  * One Class SVM or One Class other algorithm
+    * These are unsupervised learning, with these algorithms, you are trying to measure the similarity between training and testing data
+    * sklearn has already had the implementation: http://scikit-learn.org/stable/auto_examples/svm/plot_oneclass.html
+  * Entropy
+    * To make it simple, it measure the change rate of an attribute in network flow. For example, the network under attack tend to have package header with more variety (higher change rate, higher Entropy) 
     
 * Graph Database
   * [Neo4j Fraud Detection][55]
