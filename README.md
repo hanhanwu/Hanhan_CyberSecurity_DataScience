@@ -269,7 +269,7 @@ USE CASES
     
 * Graph Database
   * [Neo4j Fraud Detection][55]
-    * The basic idea here is, multiple fraudsters are using duplicated entities when do the fraud. Using graph database can help find these links
+    * The basic idea here is, multiple fraudsters are using duplicated entities when do the fraud. Using graph database can help find these links. What makes graph database better is, it generates those links to help you understand the connections between features, instead of just look at each feature seperately. Meanwhile, the connections can give better interpretation of the problem.
 
 **************************************************************************************************
 
