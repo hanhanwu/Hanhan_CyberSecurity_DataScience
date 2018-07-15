@@ -1,6 +1,29 @@
 # Hanhan_CyberSecurity_DataScience
 Applied data science in cyber security
 
+**************************************************************************************************
+
+FROM REAL WORLD PRACTICE
+
+* Deep Learning in Tor Traffic Detection
+  * <b>Malware Detection</b> and <b>Network Intrusion</b> are the 2 major areas where Deep Learning has shown significant improvement over rule-based method and traditional machine learning methods
+  * Anonymous network/traffic can be accomplished through various means. They can be broadly classified into:
+    * Network based (TOR, I2P, Freenet)
+    * Custom OS based (subgraph OS, Freepto)
+  * Reference: https://www.analyticsvidhya.com/blog/2018/07/using-power-deep-learning-cyber-security/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29
+  * Tor Communication
+  ![tor communication](https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/tor_traffic.png)
+  * "TOR is a free software that enables anonymous communication over the internet through a specialized routing protocol known as the onion routing protocol [9]. The protocol depends on redirecting internet traffic over various freely hosted relays across the world. During the relay, like the layers of an onion peel, each HTTP packet is encrypted using the public key of the receiver."
+  * "At each receiver point, the packet can be decrypted using the private key. Upon decryption, the next destination relay address is revealed. This carries on until the exit node of the TOR network is met, where the decryption of the packet ends, and a plain HTTP packet is forwarded to the original destination server."
+  * "The original intent of launching TOR was to safeguard the privacy of users. However, adversaries have hijacked the good Samaritan objective to use it for various nefarious means instead.TOR traffic can be detected by analyzing the traffic packets. This analysis can be on the TOR node, or in between the client and the entry node. The analysis is done on a single flow of packet. Each flow constitutes a tuple of source address, source port, destination address, and destination port."
+  * Learnings from their deep learning method
+    * Source IP/port and destination IP/port, along with the protocol field, have been removed from the instance as they overfit the model
+    * They tried different number of layers, and found the optimal number of layers
+    * They used recall, precision and F-score as the measure
+    * When they were using smaller dataset, Random Forest is better than deep learning. But for large dataset, they said deep learning works better.
+    * They also mentioned that pretrained deep learning model can be generalised for similar types of applications and you just need to change the output layer, but other machine learning methods need to re-train the model.
+      * This sounds make sense. But if it's similar types of problem, for other machine learning methods, why not also use pre-trained models?
+
 
 **************************************************************************************************
 
