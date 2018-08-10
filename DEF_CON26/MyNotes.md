@@ -86,3 +86,10 @@ This will be my first DEF CON. I booked the flight and hotel at the end of last 
   * 3pm, Track 3
 * DEF CON Closing Ceremonies
   * 4pm, Track 1
+
+## A Boat of Notes
+### Aug.9
+Today is day 1, most of the villages didn't have any talk yet and therefore all the talks gathered in Flamingo. There were so many people in that giant ballroom, that after each talk, if you want to get to the bathroom, you need to wait in the line and slowly moved out.... Then when you wanted to come back, you also need to wait in line but just could not find the end of the line.... Anyway, among limited amount of talks today, I took the notes and one of them was especially interesting.
+* About under surveillance
+  * I think this is a sensitive talk and I don't want to expose too much here, although later DEF CON will post videos. This talk is about anyone can be under surveillance and you didn't know. Besides talking a lot about how could you tell you are under surveillance, and how to avoid being under surveillance, they also used fun and impressive videos to show how did UA security agencies track Russian spies.
+  * Although I won't put my detailed notes here, the speakers have created an open source to automatically recognize the license plates: https://github.com/openalpr/openalpr
