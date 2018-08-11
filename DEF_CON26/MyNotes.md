@@ -38,6 +38,46 @@ This must be my favorite talk today. The 2 presenters are female professors, and
     * They found that using nativa language variable naming has already reached to a very high accuracy (90+% accuracy)
 * Their open source: https://github.com/calaylin/bda
 
+#### In AI Village
+I listened 2 talks in this village since many people were in line outside, I had to go to other talks and I felt it's more basic to me. It seems that people who did these 2 presentations were using their side projects, they are not researchers who need to publish papers. So, it's already good enough for them to do these hands-on projects.
+* The speaker was trying to extract the semantic layer from source code in order to compare the similarity between source code
+  * Although he mentioned it was semantic, it's in fact majorly using RNN to predict the next word in a sequence.
+  * It's char-RNN, using on character based data to predict the sequence.
+    * According to the speaker, this is unsupervised learning, no need label data and can generate the sequence.... But even if you check char-RNN author's input data, it still needs labels: https://github.com/karpathy/char-rnn
+    * Also, according to the speaker, he got training accuracy which means he used label data
+  * In fact his data source was his own code (lots of code), so he does have label data...
+  
+#### 20 minuts presentations
+* Cracking voicemail
+  * The github code is going to be posted here: https://github.com/martinvigo/voicemailautomator
+    * It will automatically help you compromize the user's voicemail, you will also be allowed to reset the user's password. But don't do any illegal thing with these tools.
+  * The presentation was to show how did he crack your voicemail even when your phone is airplane mode.
+* dragnet
+  * It uses social engineering to allow you do phishing through email, phone, etc. It's a red team tool.
+  * Github code: https://github.com/dragnet-org/dragnet
+  * The homepage: https://threat.tevora.com/dragnet/
+  
+#### Weaponizing Unicode: Homographs Beyond IDNS
+* It mentioned to crack machine learning systems in the description, but in fact during the whole talk, it just mentioned machine learning system once and not really relevant.
+* Majorly it's about social engineering can use unicode to create lines that looks like the letters but in fact not
+
+#### Your Voice is My Passport
+They were using machine learning to change the speaker's voice with target voice
+* Getting Youtube raw data -> Subsample high quality data (may lead to overfitting, as they admitted) -> Data Augmentation, Pitch Shift, using pytub -> Transfer Learning, they trained the model with larger data from Blizzard, then replace the data source with targeting data -> finally they could change the voice
+* Attacks on ML system
+  * Adversarial Attack; Posining the Well: all try to poisoning the training data to lead to misclassification
+  * Differential Privacy
+* Attacks with ML System
+  * Phishing
+  * Deepfakes (they said currently majorly used in porn websits)
+  * Social Engineering
+    * Yeah, the attacker can mimic someone's voice to communicate with you....
+* Speak Recognition: weak signal for authentication
+* Speak Authentication: can be broken if the attacker knows the target voice data and authentication prompt
+
+#### Your Bank's Digital Side Door
+* It tells you Personal Financial Management has poor architecture, banks are still using out of dated 2 factor authentication and none of these are safe to your money.
+
 ## Before DEF CON - Preparation
 
 ### What to Remember
