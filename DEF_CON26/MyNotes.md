@@ -114,6 +114,22 @@ Keynote speaker is keynote speaker. They can really hold everyone's attention, n
 The whole talk was not about technical details, but all about stories that CIA officiers, especially those who quite the job or committed suicide. It seesm that they knew those things and had to keep the security, finally reached to a certain point that they could not stand any more, and therefore the speaker hope we all have a community to make people all feel stronger sense of belongs.
 * I agree
 
+### Aug.12
+Today is the last day of DEF CON, I'm so tired. I went to all the AI or biometrics related talks, but all got disappointed. Their results are all supervised learning, with very small amount of dataset, methods are also too academeic, which means what they need could only used for publishing papers, not for solving industry prblems. But what I'm looking for, are the inspiations that can make industry solutions better.
+* Adversarial Machine Learning
+  * It's an area that adapts machine learning in computer security, such as malware detection, spam filtering and biometrics detection.
+  * Cannot say I like that talk, and when she was doing the presentation, I'm taking notes about what we need to be careful when we are presenting to a wide variety audience
+    * Tell the audience not only the data source, but also need to show them the sample of data input & output
+    * Make sure when you are talking about the models, it's understandable to those who never used machine learning before
+    * Visualization should show how effective your solution solved the problem.
+      * In her talk, she was using T-SNE to show multiple classes. But T-SNE cannot help you really do the classification. If you really like visualization, better to visualize both observed classes and predicted classes through T-SNE, and compare, also make sure the dots are transparent
+
+* Another talk is about how your typing give you away
+  * But they only had 10 people as data input.... although each person spent 133 mins on average. 10 people are not representative in real world situation...
+  
+* Other talks, disclosed the problems that haven't been fixed in our current OS... creepy, but what can I do.... I'm too tired. don't want to write them down anymore.
+
+
 ## Before DEF CON - Preparation
 
 ### What to Remember
