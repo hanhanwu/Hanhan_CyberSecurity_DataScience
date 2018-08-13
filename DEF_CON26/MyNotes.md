@@ -127,6 +127,10 @@ Today is the last day of DEF CON, I'm so tired. I went to all the AI or biometri
 * Another talk is about how your typing give you away
   * But they only had 10 people as data input.... although each person spent 133 mins on average. 10 people are not representative in real world situation...
   
+* Intelligent Anti-Malware for Android
+  * Their GitHub: https://github.com/IntelliAV
+  * Their website: http://intelliav.com/
+  
 * Other talks, disclosed the problems that haven't been fixed in our current OS... creepy, but what can I do.... I'm too tired. don't want to write them down anymore.
 
 
