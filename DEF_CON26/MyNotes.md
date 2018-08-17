@@ -126,6 +126,7 @@ Today is the last day of DEF CON, I'm so tired. I went to all the AI or biometri
 
 * Another talk is about how your typing give you away
   * But they only had 10 people as data input.... although each person spent 133 mins on average. 10 people are not representative in real world situation...
+  * But he mentioned, fraudsters tend to have consistent fraudluent behaviors that's different from normal people
   
 * Intelligent Anti-Malware for Android
   * Their GitHub: https://github.com/IntelliAV
