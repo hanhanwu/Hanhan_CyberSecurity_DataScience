@@ -1,4 +1,7 @@
-This will be my first DEF CON. I booked the flight and hotel at the end of last year, because of the discounts. I'm very excited about it, and also need to be very careful to everything. My own security is the most important.
+This is my very first DEF CON.
+
+## My Overall Feelings
+It was such an amazing conference, creative, lively, practical and creepy. Talks related to AI made me feel, it's lucky that my company has much more opportunities to do different experiments & analysis, solving real world problems and finally they will all become products. From other talks not related to AI, I have learned a lot, although got scared along the way... Finally got the cold (I haven't got sick for 2+ years...), those hotels were too cold. Time to take care of myself well. Love the badges most. Oh! It was overcrowded this year, I have never been waiting in lines for such long time just in order to attend the talks.
 
 ## A Boat of Notes
 ### Aug.9
@@ -136,6 +139,7 @@ Today is the last day of DEF CON, I'm so tired. I went to all the AI or biometri
 
 
 ## Before DEF CON - Preparation
+This will be my first DEF CON. I booked the flight and hotel at the end of last year, because of the discounts. I'm very excited about it, and also need to be very careful to everything. My own security is the most important.
 
 ### What to Remember
 * <b>Don't bring any electronic device. Don't bring bank cards but just cash.</b>
