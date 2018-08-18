@@ -296,7 +296,7 @@ USE CASES
 
 **************************************************************************************************
 
-BIOMETRICS
+HUMAN COMPUTER INTERACTION
 
 * [Mouse Movement, Keystroke Dynamics and User Emotions][1]
   * The sumarized patterns in mouse movent, keystroke and their correlation with user psychological behavior is pretty good
