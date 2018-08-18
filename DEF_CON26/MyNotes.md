@@ -1,7 +1,7 @@
 This is my very first DEF CON.
 
 ## My Overall Feelings
-It was such an amazing conference, creative, lively, practical and creepy. Talks related to AI made me feel, it's lucky that my company has much more opportunities to do different experiments & analysis, solving real world problems and finally they will all become products. From other talks not related to AI, I have learned a lot, although got scared along the way... Finally got the cold (I haven't got sick for 2+ years...), those hotels were too cold. Time to take care of myself well. Love the badges most. Oh! It was overcrowded this year, I have never been waiting in lines for such long time just in order to attend the talks.
+It was such an amazing conference, creative, lively, practical and creepy. Talks related to AI made me feel, it's lucky that my company has much more opportunities to do different experiments & analysis, solving real world problems and finally they will all become products. From other talks not related to AI, I have learned a lot, although got scared along the way... Finally got the cold (I haven't got sick for 2+ years...). Time to take care of myself well. Love the badges most. Oh! It was overcrowded this year, I have never been waiting in lines for such a long time just in order to attend the talks.
 
 ## A Boat of Notes
 ### Aug.9
