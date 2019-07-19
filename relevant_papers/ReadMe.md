@@ -5,6 +5,10 @@
 * [Spoofing Deception][2]
 * [Website Fingerprinting Through Cache Occpancy Channel][3]
 
+## Account Takeover
+* [ATO Guide for Merchants][4]
+
 [1]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/relevant_papers/mobilespoofing.pdf
 [2]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/relevant_papers/spoofingdeception.pdf
 [3]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/relevant_papers/website_fingerprinting_through_cache_occupancy_channel.pdf
+[4]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/relevant_papers/ATO%20Guide%20for%20online%20merchants..pdf
