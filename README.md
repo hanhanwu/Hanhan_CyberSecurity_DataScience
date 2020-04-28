@@ -1,10 +1,7 @@
 # Hanhan_CyberSecurity_DataScience
 Applied data science in cyber security
 
-**************************************************************************************************
-
-FROM REAL WORLD PRACTICE
-
+## FROM REAL WORLD PRACTICE
 * Deep Learning in Tor Traffic Detection
   * <b>Malware Detection</b> and <b>Network Intrusion</b> are the 2 major areas where Deep Learning has shown significant improvement over rule-based method and traditional machine learning methods
   * Anonymous network/traffic can be accomplished through various means. They can be broadly classified into:
@@ -25,10 +22,7 @@ FROM REAL WORLD PRACTICE
       * This sounds make sense. But if it's similar types of problem, for other machine learning methods, why not also use pre-trained models?
 
 
-**************************************************************************************************
-
-NETWORK ANOMALUES & DATA SCIENCE
-
+## NETWORK ANOMALUES & DATA SCIENCE
 * Anomalies
   * Point Anomaly: different from the rest of data
   * Contextual Anomaly: in a given context, the instance is different from the rest of data
@@ -228,9 +222,8 @@ NETWORK ANOMALUES & DATA SCIENCE
 * Network Simulation
   * [NS-3 Network Simulator][25]
   
-**************************************************************************************************
-
-USE CASES
+  
+## USE CASES
 
 * Supervised Learning in Signature Detection
   * Association Rules
@@ -294,9 +287,7 @@ USE CASES
   * [Neo4j Fraud Detection][55]
     * The basic idea here is, multiple fraudsters are using duplicated entities when do the fraud. Using graph database can help find these links. What makes graph database better is, it generates those links to help you understand the connections between features, instead of just look at each feature seperately. Meanwhile, the connections can give better interpretation of the problem.
 
-**************************************************************************************************
-
-HUMAN COMPUTER INTERACTION
+## HUMAN COMPUTER INTERACTION
 
 * [Mouse Movement, Keystroke Dynamics and User Emotions][1]
   * The sumarized patterns in mouse movent, keystroke and their correlation with user psychological behavior is pretty good
@@ -341,19 +332,16 @@ HUMAN COMPUTER INTERACTION
   * [GREYC-keystroke dataset][29]
     * Their dataset is in .db format, that's sqlite files, you need to use [sqlite browser][30] to open the files, then you will see each table in the file. Just click that .db file after installing sqlite browser.
     
-**************************************************************************************************
-    
-OPEN SOURCES
-
+## OPEN SOURCES
 * [Snort - Rule Based IDS][35]
   * This open-source system matches each packet it observes against a set of rules.
   * Snort rules identify attack packets based on IP addresses, TCP or UDP port numbers, ICMP codes or types and contents of strings in the packet payload.
   * Each Snort rule has associated documentation with the potential for false positives and negatives, together with corrective actions to be taken when the rule raises an alert.
   * An intrusion detection system like Snort can run on a general purpose computer and can try to inspect all packets that go through the network. However, monitoring packets comprehensively in a large net- work is obviously an expensive task since it requires fast inspection on a large number of network interfaces. Many hundreds of rules may have to be matched concurrently, making scaling almost impossible.
+* [Anomaly Detection in R][60]
 
-**************************************************************************************************
 
-REFERENCES
+## REFERENCES
 
 * [Network Anomaly Detection:A Machine Learning Perspective][33]
   * [Official Link][34]
@@ -420,3 +408,4 @@ REFERENCES
 [57]:https://github.com/hanhanwu/Hanhan-Machine-Learning-Model-Implementation/blob/master/ReadMe_Optimization.md
 [58]:http://www.saedsayad.com/decision_tree.htm
 [59]:http://people.revoledu.com/kardi/tutorial/DecisionTree/how-to-measure-impurity.htm
+[60]:https://github.com/pridiltal/ctv-AnomalyDetection
