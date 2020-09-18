@@ -286,6 +286,12 @@ Applied data science in cyber security
 * Graph Database
   * [Neo4j Fraud Detection][55]
     * The basic idea here is, multiple fraudsters are using duplicated entities when do the fraud. Using graph database can help find these links. What makes graph database better is, it generates those links to help you understand the connections between features, instead of just look at each feature seperately. Meanwhile, the connections can give better interpretation of the problem.
+    
+* Feature Extraction in Malicious Software Installation
+  * [Based on Software Name][61]
+    * tf-idf of the software name
+    * How many spaces the software name has
+    * How many vowels (aeiou) the software name has
 
 ## HUMAN COMPUTER INTERACTION
 
@@ -409,3 +415,4 @@ Applied data science in cyber security
 [58]:http://www.saedsayad.com/decision_tree.htm
 [59]:http://people.revoledu.com/kardi/tutorial/DecisionTree/how-to-measure-impurity.htm
 [60]:https://github.com/pridiltal/ctv-AnomalyDetection
+[61]:https://www.analyticsvidhya.com/blog/2020/09/machine-learning-in-cyber-security-malicious-software-installation/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29
