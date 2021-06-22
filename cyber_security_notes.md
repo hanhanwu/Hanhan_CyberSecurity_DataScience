@@ -39,6 +39,9 @@
 * Checkmarx
   * https://www.checkmarx.com/
   * It's a tool that can scan the code and detect the vulnerabilities 
+* Threat Guard
+  * https://fraudguard.io/
+  * Quickly validates an IP 
 
 ## References
 * [Cybersecurity - Attack and Defense Strategies][1]
