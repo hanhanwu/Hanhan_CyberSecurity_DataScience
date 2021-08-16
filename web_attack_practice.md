@@ -34,7 +34,8 @@
   * Type `cert` in the search var under `about:preferences`, then click "View Certificates"
     * Click "Import" and import the certificate downloaded from Burpsuite from above step
 ### Burpsuite Setup
-* After finishing above steps, open Burpsuite app, click "Proxy" tab --> Click "HTTP history" tab
+* After finishing above steps, open Burpsuite app, click "Proxy" tab --> click "Intercept is on"
+* Click "Proxy" tab --> Click "HTTP history" tab
   * Right click a host starts with "http://localhost:3000/" and click "Add to scope"
     * If didn't see it, try to refresh Burp interface 
   * The click "Target" tab --> then click "Site Map", you should be able to see "http://localhost:3000"
