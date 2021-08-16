@@ -2,6 +2,9 @@
 
 ## [Cyber Security Notes][62]
 
+## Attack Practice
+* [Web Attack Practice][63]
+
 ## FROM REAL WORLD PRACTICE
 * Deep Learning in Tor Traffic Detection
   * <b>Malware Detection</b> and <b>Network Intrusion</b> are the 2 major areas where Deep Learning has shown significant improvement over rule-based method and traditional machine learning methods
@@ -418,3 +421,4 @@
 [60]:https://github.com/pridiltal/ctv-AnomalyDetection
 [61]:https://www.analyticsvidhya.com/blog/2020/09/machine-learning-in-cyber-security-malicious-software-installation/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29
 [62]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/cyber_security_notes.md
+[63]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/web_attack_practice.md
