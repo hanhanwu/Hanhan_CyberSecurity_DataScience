@@ -39,3 +39,8 @@
   * Right click a host starts with "http://localhost:3000/" and click "Add to scope"
     * If didn't see it, try to refresh Burp interface 
   * The click "Target" tab --> then click "Site Map", you should be able to see "http://localhost:3000"
+
+## Cmd+Ctrl Shadow Bank Attack
+* If you read the title of "challenges" in https://cmdnctrl.net/teams/summary, you will get some hints about what to attack...
+* Example of very basic SQL injection: https://www.securityinnovation.com/training/cmd-ctrl-cyber-range-security-training/cyber-range-suite/cmdctrl-cyber-range-shadow-bank/
+  * I think, most website won't be this vulnerable...
