@@ -40,7 +40,32 @@
     * If didn't see it, try to refresh Burp interface 
   * The click "Target" tab --> then click "Site Map", you should be able to see "http://localhost:3000"
 
-## Cmd+Ctrl Shadow Bank Attack
-* If you read the title of "challenges" in https://cmdnctrl.net/teams/summary, you will get some hints about what to attack...
+## Example Attack
+* It's an attack game in Cmd + Ctrl
+* If you read the title of "challenges" in https://cmdnctrl.net/teams/summary, you will get some hints about what to attack
+* Check HTML source code, and you will find the username and password in the comment
+  * Who will really do this in the real world... 
 * Example of very basic SQL injection: https://www.securityinnovation.com/training/cmd-ctrl-cyber-range-security-training/cyber-range-suite/cmdctrl-cyber-range-shadow-bank/
+  * By typing `' 1=1 #` in the username and put whatever in the apssword field, you can login
   * I think, most website won't be this vulnerable...
+  * A 7 min simple tutorial in sql injection: https://securityinnovation.hubs.vidyard.com/watch/fThcxjLgvA9zxDWvFhaNaC
+* Example of denial of service attack: http://fjordengineering.com/posts/version-2.3-vulnerability/
+  * Add `kill?shutDownToken=ae450g9dg` after the URL could shuts down the serve... 
+* Example of cryptanalysis of Vigenere Cipher
+  * Add `/cheshire` at the end of the URL
+  * I really don't know why this could get the score....
+* Examples of Hidden Form Field Manipulation
+  * Exmaple of post as others
+    * Open HTML source, and find "newPost" 
+    * Remove `type=""hidden` to make those visible
+    * Replace the value of threadId; repalce the value of postBy to a user name you know; set the value of staffPost to "true"
+    * Click "Submit" on the website
+<p align="center">
+<img src="https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/more_images/Screen%20Shot%202021-08-18%20at%209.18.22%20AM.png" width="850" height="200" />
+</p>
+  * Example of Price Gouging
+    * Still remove `type="hidden"`, and change the values of the hidden field. 
+    * Increase the stock price and make sure the numbers you set are sellable 
+<p align="center">
+<img src="https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/more_images/stock_selling.png" width="850" height="200" />
+</p>
