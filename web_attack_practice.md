@@ -35,6 +35,7 @@
     * Click "Import" and import the certificate downloaded from Burpsuite from above step
 ### Burpsuite Setup
 * After finishing above steps, open Burpsuite app, click "Proxy" tab --> click "Intercept is on"
+  * <b>Make sure "Intercept is on" everytime</b>
 * Click "Proxy" tab --> Click "HTTP history" tab
   * Right click a host starts with "http://localhost:3000/" and click "Add to scope"
     * If didn't see it, try to refresh Burp interface 
@@ -49,6 +50,9 @@
   * By typing `' 1=1 #` in the username and put whatever in the apssword field, you can login
   * I think, most website won't be this vulnerable...
   * A 7 min simple tutorial in sql injection: https://securityinnovation.hubs.vidyard.com/watch/fThcxjLgvA9zxDWvFhaNaC
+* Exmaples of XSS (cross site scripting), JS injection
+  * XSS on any empty web form, such as "Search" bar by fill in things like `<script>alert(1)</script>`
+  * XSS on login page by adding `loginError.action?errorMsg=<script>alert(1)</script>` to the URL before login 
 * Example of denial of service attack: http://fjordengineering.com/posts/version-2.3-vulnerability/
   * Add `kill?shutDownToken=ae450g9dg` after the URL could shuts down the serve... 
 * Example of cryptanalysis of Vigenere Cipher
