@@ -67,5 +67,5 @@
     * Still remove `type="hidden"`, and change the values of the hidden field. 
     * Increase the stock price and make sure the numbers you set are sellable 
 <p align="center">
-<img src="https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/more_images/stock_selling.png" width="850" height="200" />
+<img src="https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/more_images/stock_selling.png" width="850" height="150" />
 </p>
