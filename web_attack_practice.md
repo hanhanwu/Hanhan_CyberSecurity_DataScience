@@ -41,7 +41,7 @@
     * If didn't see it, try to refresh Burp interface 
   * The click "Target" tab --> then click "Site Map", you should be able to see "http://localhost:3000"
 
-## Example Attack
+## Example Attacks
 * It's an attack game in Cmd + Ctrl
 * If you read the title of "challenges" in https://cmdnctrl.net/teams/summary, you will get some hints about what to attack
 * Check HTML source code, and you will find the username and password in the comment
@@ -56,6 +56,11 @@
   * XSS on transfer page by adding `doTransfer.action?destId=<script>alert(1)</script>&amount=2222` to the URL after login
 * Example of denial of service attack: http://fjordengineering.com/posts/version-2.3-vulnerability/
   * Add `kill?shutDownToken=ae450g9dg` after the URL could shuts down the serve... 
+* Example of foreceful browsing & XML injection
+  * Add `/admin` after the URL
+  * Under this admin login page, type `blah' or 1=1 or 'a'='a` as username and click submit, you will achieve XML injection
+* Example of authorization bypass
+  * If you see user settings URL has params in it, such as "/users/profile/3/settings", you can change the params
 * Example of cryptanalysis of Vigenere Cipher
   * Add `/cheshire` at the end of the URL
   * I really don't know why this could get the score....
@@ -65,12 +70,31 @@
     * Remove `type=""hidden` to make those visible
     * Replace the value of threadId; repalce the value of postBy to a user name you know; set the value of staffPost to "true"
     * Click "Submit" on the website
+* Example of Bypass approval form
+  * If you find the hidden approval field, you can remove `type="hidden"` and set the value as "0" 
+  * If it needs other actions such as upload a .pdf file, you might need to do those before clicking submit
 <p align="center">
-<img src="https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/more_images/Screen%20Shot%202021-08-18%20at%209.18.22%20AM.png" width="850" height="200" />
+<img src="https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/more_images/bypass_approval_form.png" width="600" height="100" />
 </p>
-  * Example of Price Gouging
+
+* Example of Price Gouging
     * Still remove `type="hidden"`, and change the values of the hidden field. 
     * Increase the stock price and make sure the numbers you set are sellable 
 <p align="center">
 <img src="https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/more_images/stock_selling.png" width="850" height="150" />
 </p>
+
+* Example of disabled button
+  * If you see disabled buttons in the website, there might be something interesting to explore. So find that hidden button in the source HTML, and change `disabled=""` to `enabled=""`
+<p align="center">
+<img src="https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/more_images/disabled_button.png" width="850" height="650" />
+</p>
+
+* Example of weak password reset
+  * If you know a user's name, check his/her facebook to see whether you can find answers for password set 
+* Exmaple of threadID integer overflow
+  * Add `/users/messages/threads/3999999999999999` after the URL
+<p align="center">
+<img src="https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/more_images/Screen%20Shot%202021-08-18%20at%209.18.22%20AM.png" width="850" height="200" />
+</p>
+
