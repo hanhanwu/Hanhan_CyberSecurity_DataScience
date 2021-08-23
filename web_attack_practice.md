@@ -1,7 +1,15 @@
 # Web Attack Practice
 
+## Attack Tips
 * ‼️ Always look into HTML source code
-* Your file name can be a SQL query
+* * Your file name can be a SQL query
+
+## Defender Tips
+* SQL Injection Remediation
+  *  Input validation
+  *  Seperate code and data
+  *  Parameterized queries and ORM (Object Relational Mapping)
+    * For example: https://stackoverflow.com/questions/1279613/what-is-an-orm-how-does-it-work-and-how-should-i-use-one  
 
 ## Tools Setup
 ### Installation
