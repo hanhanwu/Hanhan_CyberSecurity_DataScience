@@ -1,6 +1,7 @@
 # Web Attack Practice
 
-‼️ Always look into HTML source code
+* ‼️ Always look into HTML source code
+* Your file name can be a SQL query
 
 ## Tools Setup
 ### Installation
