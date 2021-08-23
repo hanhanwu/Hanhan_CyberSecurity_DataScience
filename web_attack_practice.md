@@ -2,7 +2,7 @@
 
 ## Attack Tips
 * ‼️ Always look into HTML source code
-* * Your file name can be a SQL query
+* Your file name can be a SQL query
 
 ## Defender Tips
 * SQL Injection Remediation
