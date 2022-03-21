@@ -6,6 +6,15 @@
 * [Web Attack Practice][63]
 
 ## FROM REAL WORLD PRACTICE
+* [Morpheus Pipeline for Sensitive Info Detection][64]
+  * Morpheus is a pipeline that does data preprocessing, inferencing and post-processing
+  * GPU running classic machine learning algorithms: https://github.com/rapidsai/cuml
+    * More about Rapids Forecast Inference Library: https://medium.com/rapids-ai/rapids-forest-inference-library-prediction-at-100-million-rows-per-second-19558890bc35 
+  * ML is used in log data parsing, instead of using regular expression: https://www.splunk.com/en_us/blog/it/how-splunk-is-parsing-machine-logs-with-machine-learning-on-nvidia-s-triton-and-morpheus.html
+    * Named Entity Recornition (NER) is applied, LSTM worked best  
+    * Triton on GPU saves money
+  * For anomaly detection, they uses AutoEncoder to preprocess the data, then check absolute z-score and find those with highest absolute z-score (highest deviation)
+
 * Deep Learning in Tor Traffic Detection
   * <b>Malware Detection</b> and <b>Network Intrusion</b> are the 2 major areas where Deep Learning has shown significant improvement over rule-based method and traditional machine learning methods
   * Anonymous network/traffic can be accomplished through various means. They can be broadly classified into:
@@ -422,3 +431,4 @@
 [61]:https://www.analyticsvidhya.com/blog/2020/09/machine-learning-in-cyber-security-malicious-software-installation/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29
 [62]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/cyber_security_notes.md
 [63]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/web_attack_practice.md
+[64]:https://github.com/hanhanwu/Hanhan_CyberSecurity_DataScience/blob/master/more_images/morpheus_pipeline.png
