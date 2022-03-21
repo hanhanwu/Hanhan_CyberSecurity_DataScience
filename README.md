@@ -13,7 +13,7 @@
   * ML is used in log data parsing, instead of using regular expression: https://www.splunk.com/en_us/blog/it/how-splunk-is-parsing-machine-logs-with-machine-learning-on-nvidia-s-triton-and-morpheus.html
     * Named Entity Recornition (NER) is applied, LSTM worked best  
     * Triton on GPU saves money
-  * For anomaly detection, they uses AutoEncoder to preprocess the data, then check absolute z-score and find those with highest absolute z-score (highest deviation)
+  * For anomaly detection, they uses AutoEncoder to forecast the anomaly score, then check absolute z-score and find those with highest absolute z-score (highest deviation)
 
 * Deep Learning in Tor Traffic Detection
   * <b>Malware Detection</b> and <b>Network Intrusion</b> are the 2 major areas where Deep Learning has shown significant improvement over rule-based method and traditional machine learning methods
